@@ -1,0 +1,88 @@
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 119px;
+}
+
+.item{
+    width: 392px;
+    height: 479px;
+    background-color: rgb(255, 255, 255);
+}
+
+.item__info{
+    padding: 30px 24px 24px;
+}
+
+.nutrition-info{
+    display: flex;
+    gap: 8px;
+    height: 17px;
+    margin-bottom: 4px;
+}
+
+.nutrition__separator{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: rgb(224, 113, 83);
+    margin-top: 4.5px;
+}
+
+.nutrition-info p{
+    color: rgb(183, 183, 183);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.item__name{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 4px;
+}
+
+.item__contains{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    height: 51px;
+}
+
+.order__field{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.old__price p{
+    color: rgb(183, 183, 183);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-decoration-line: line-through;
+    margin-bottom: -6px;
+}
+
+.new__price{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+button{
+    background-image: url("/src/img/button.svg");
+    border: 1px solid rgb(201, 92, 63);
+    border-radius: 2px;
+    background-color: rgb(224, 113, 83);
+    max-width: 180px;
+    width: 100%;
+    height: 44px;
+}
+
+button p{
+    color: white;
+}
+
