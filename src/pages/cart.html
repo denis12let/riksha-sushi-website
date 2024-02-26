@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/src/css/cart/cart.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- header-->
+
+        <div class="cart">
+            <div class="cart__container">
+                <div class="cart__title">
+                    <h1>Оформление заказа</h1>
+                </div>
+                <div class="cart__content">
+                    <div class="cart__items">
+                        <hr>
+                        <div class="items__item">
+                            <div class="item__img">
+                                <img src="/src/img/cart/items/item_1.svg" alt="">
+                            </div>
+                            <div class="item__info">
+                                <div class="item__name">
+                                    <p>Пицца “Рикша”</p>
+                                </div>
+                                <div class="item__feature">
+                                    <div class="feature-1">
+                                        <p>30 см</p>
+                                    </div>
+                                    <div class="feature__separator">
+    
+                                    </div>
+                                    <div class="feature-2">
+                                        <p>50 см</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item__number">
+                                <button class="number-minus">-</button>
+                                <div class="number-count" id="count">1</div>
+                                <button class="number-plus">+</button>
+                            </div>
+                            <div class="item__price">
+                                <p>510 ₽ </p>
+                            </div>
+                            <div class="item__delete">
+                                <img src="/src/img/cart/items/basket.svg" alt="">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="items__item">
+                            <div class="item__img">
+                                <img src="/src/img/cart/items/item_2.svg" alt="">
+                            </div>
+                            <div class="item__info">
+                                <div class="item__name">
+                                    <p>Ролл "Сливочная креветка"</p>
+                                </div>
+
+                            </div>
+                            <div class="item__number">
+                                <button class="number-minus">-</button>
+                                <div class="number-count" id="count">1</div>
+                                <button class="number-plus">+</button>
+                            </div>
+                            <div class="item__price">
+                                <p>199 ₽ </p>
+                            </div>
+                            <div class="item__delete">
+                                <img src="/src/img/cart/items/basket.svg" alt="">
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <form class="checkout">
+                        <div class="contacts form-1">
+                            <div class="section__heading">
+                                <img src="/src/img/cart/checkout/check_1.svg" alt="">
+                                <h2>Контактные данные</h2>
+                            </div>
+                            <div class="section__part">
+                                <div class="personal__info">
+                                    <input type="text" class="name" placeholder="Ваше имя">
+                                    <input type="text" class="phone" placeholder="Телефон">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="receiving form-1">
+                            <div class="section__heading">
+                                <img src="/src/img/cart/checkout/check_2.svg" alt="">
+                                <h2>Параметры доставки</h2>
+                            </div>
+                            <div class="seaction__part">
+                                <div class="checkout__nav">
+                                    <ul>
+                                        <li class="receiving__nav-radio">
+                                            <input type="radio" class="input" value="Ближайшее время">
+                                            <label for="Ближайшее время">Ближайшее время</label>
+                                        </li>
+                                        <li class="receiving__nav-radio">
+                                            <input type="radio" class="input" value="Самовывоз">
+                                            <label for="Самовывоз">Самовывоз</label>
+                                        </li>
+                                        <li class="receiving__nav-radio">
+                                            <input type="radio" class="input" value="На дату / время">
+                                            <label for="На дату / время">На дату / время</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="checkout__delivery">
+                                    <div class="delivery__form-1 input-2">
+                                        <input type="text" placeholder="Улица">
+                                        <input type="text" placeholder="Дом">
+                                    </div>
+                                    <div class="delivery__form-2 input-2">
+                                        <input type="text" placeholder="Квартира">
+                                        <input type="text" placeholder="Подьезд/Этаж/Домофон">
+                                    </div>
+                                </div>
+                                <div class="delivery__map">
+                                    <img src="/src/img/cart/checkout/map.svg" alt="">
+                                </div>
+                                <div class="delivery__caption">
+                                    <img src="/src/img/cart/checkout/delivery.svg" alt="">
+                                    <p>Доставим за 40 мин</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="payment form-1">
+                            <div class="section__heading">
+                                <img src="/src/img/cart/checkout/check_3.svg" alt="">
+                                <h2>Параметры оплаты</h2>
+                            </div>
+                            <div class="section__part">
+                                <div class="payment__nav">
+                                    <ul>
+                                        <li class="payment__nav-radio input-2">
+                                            <input type="radio" class="input" value="Наличные">
+                                            <label for="Наличные">Наличные</label>
+                                        </li>
+                                        <li class="payment__nav-radio input-2">
+                                            <input type="radio" class="input" value="Онлайн-оплата">
+                                            <label for="Онлайн-оплата">Онлайн-оплата</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="payment__change">
+                                    <p>Подготовить сдачу с :</p>
+                                    <div class="change__volume">
+                                        <div class="change__input">
+                                            <input type="text" placeholder="Введите сумму">
+                                        </div>
+                                        <div class="change-empty">
+                                            <input type="checkbox" checked value="Без сдачи">
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <div class="confirm form-1">
+                            <div class="section__heading">
+                                <img src="/src/img/cart/checkout/check_4.svg" alt="">
+                                <h2>Последний шаг</h2>
+                            </div>
+                            <hr>
+                            <div class="section__part">
+                                <div class="dop">
+                                    <div class="dop__person-count count-1">
+                                        <p>Количество персон</p>
+                                        <div class="number">
+                                            <button class="number-minus">-</button>
+                                            <div class="number-count" id="count">1</div>
+                                            <button class="number-plus">+</button>
+                                        </div>
+                                    </div>
+                                    <div class="dop__cutlery-count count-1">
+                                        <p>Учебные палочки</p>
+                                        <div class="number">
+                                            <button class="number-minus">-</button>
+                                            <div class="number-count" id="count">1</div>
+                                            <button class="number-plus">+</button>
+                                        </div>
+                                    </div>
+                                    <p>Бесплатно</p>
+                                </div>
+                                <hr>
+                                <div class="cart__sum">
+                                    <div class="sum__items">
+                                        <div class="text">
+                                            <p>Сумма заказа</p>
+                                        </div>
+                                        <div class="sum-1 sum">
+                                            <p>729 ₽ </p>
+                                        </div>
+                                    </div>
+                                    <div class="sum__items">
+                                        <div class="text">
+                                            <p>Стоимость доставки</p>
+                                        </div>
+                                        <div class="sum-2 sum">
+                                            <p>0 ₽ </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="promo">
+                                    <div class="promo__container">
+                                        <div class="text">
+                                            <p>Промокод</p>
+                                        </div>
+                                        <a href="#" class="promo__link">Применить</a>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="section__last">
+                                    <div class="cart__sum-total">
+                                        <div class="text">
+                                            <p>Итоговая сумма</p>
+                                        </div>
+                                        <div class="sum">
+                                            <p>729 ₽</p>
+                                        </div>
+                                    </div>
+                                    <div class="comment__input">
+                                        <textarea name="" id="" cols="30" rows="10" placeholder="Комментарий к заказу"></textarea>
+                                    </div>
+                                    <div class="btn-pay">
+                                        <button>Подтвердить заказ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer-->
+    </div>
+</body>
+</html>

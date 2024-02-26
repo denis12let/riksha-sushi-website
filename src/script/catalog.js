@@ -3,7 +3,7 @@ const dopElements = document.querySelectorAll(".dop");
 
 dopElements.forEach(function(dopElement) {
   dopElement.addEventListener("click", function() {
-    clearActive()
+    clearActive();
     const listItem = this.closest(".list__item");
     listItem.classList.toggle("active");
   });

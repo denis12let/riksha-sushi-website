@@ -1,0 +1,302 @@
+.checkout{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-1{
+    background: rgb(245, 245, 245);
+    padding: 23px 23px 24px 24px; 
+    /* Для первого блока мб подкорректировать */
+}
+
+.section__heading{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 17px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.section__heading img{
+    width: 40px;
+    height: 20px;
+}
+
+.personal__info{
+    display: flex;
+    gap: 8px;
+}
+
+.personal__info input{
+    max-width: 272px;
+    width: 100%;
+}
+
+input{
+    padding: 15px 0 14px 16px;
+    height: 48px;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.checkout__nav ul{
+    display: flex;
+    gap: 27px;
+}
+
+.checkout__nav li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* .input{
+    border-width: 0.4px;
+} */
+
+.checkout__delivery{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+.input-2{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.delivery__form-1 input:first-child, .delivery__form-2 input:last-child{
+    max-width: 378px;
+    width: 100%;
+}
+
+.delivery__map{
+    margin-bottom: 8px;
+    max-width: 552px;
+    width: 100%;
+}
+
+.delivery__caption{
+    display: flex;
+    align-items: end;
+    gap: 13px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.payment__nav ul{
+    display: flex;
+    gap: 26px;
+}
+
+.payment__nav{
+    margin-bottom: 25px;
+}
+
+.change__volume{
+    display: flex;
+    gap: 26px;
+}
+
+.change__input{
+    max-width: 278px;
+    width: 100%;
+}
+
+.change__input input{
+    width: 100%;
+}
+
+.payment__change p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-bottom: 2px;
+}
+
+.dop{
+    display: flex;
+    padding: 31px 0;
+    width: 100%;
+    align-items: center;
+}
+
+.dop p{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    white-space: nowrap;
+}
+
+.dop p:last-child{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.count-1{
+    display: flex;
+}
+
+.dop__person-count{
+    margin-right: 15px;
+}
+
+.dop__cutlery-count{
+    margin-right: 23px;
+} 
+
+.number{
+    display: flex;
+    max-width: 89px;
+    width: 100%;
+    height: 36px;
+    padding: 12px 12px;
+    border: 1px solid rgb(226, 225, 225);
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    width: 89px;
+}
+
+.number button{
+    display: flex;
+    color: rgb(224, 113, 83);
+    background: rgb(245, 245, 245);
+    font-family: TT Interfaces;
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 34px;
+}
+
+.number-count{
+    padding-top: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.item__price{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-right: 33px;
+}
+
+.cart__sum{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;   
+    gap: 18px;
+}
+
+.sum__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sum{
+    font-size: 20px;
+    font-weight: 600; 
+    line-height: 25px;
+}
+
+.promo{
+    padding: 24px 0;
+}
+
+.promo__container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px dashed rgb(226, 225, 225);
+    border-radius: 4px;
+    padding: 17px 7px 17px 16px;
+}
+
+.text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.promo__container a{
+    color: rgb(201, 92, 63);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+
+.section__last{
+    padding-top: 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.cart__sum-total{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.cart__sum-total .text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.cart__sum-total .sum{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.comment__input{
+    width: 100%;
+    height: 96px;
+}
+
+textarea{
+    padding: 15px 16px;
+    height: 100%;
+    width: 100%;
+    color: rgb(183, 183, 183);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    outline: none;
+    resize: none;
+}
+
+.btn-pay button{
+    background-image: url("/src/img/button.svg");
+    border: 1px solid rgb(201, 92, 63);
+    border-radius: 2px;
+    background-color: rgb(224, 113, 83);
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.btn-pay button:hover{
+    opacity: 0.85;
+}
+
+.btn-pay button:active {
+    opacity: 0.7;
+}

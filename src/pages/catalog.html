@@ -4,196 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <link rel="stylesheet" href="/src/css/temp/header.css">
-    <link rel="stylesheet" href="/src/css/temp/footer.css">
-
-    <link rel="stylesheet" href="/src/css/catalog/filter.css">
-    <link rel="stylesheet" href="/src/css/catalog/items.css">
-    <link rel="stylesheet" href="/src/css/catalog/story.css">
     <link rel="stylesheet" href="/src/css/catalog/catalog.css">
 </head>
 <body>
     <div class="wrapper">
         <!-- header -->
-        <header class="header">
-            <div class="header__top __container">
-                <a href="#" class="logo">
-                    <img src="../img/temp/logo.svg" alt="">
-                </a>
-                <div class="header__wrapper">
-                    <nav class="nav">
-                        <ul class="nav__list">
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">
-                                    О нас
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">
-                                    Доставка и оплата
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">
-                                    Контакты
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">
-                                    Бонусы
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">
-                                    Вакансии
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="nav__phone">
-                        <div class="phone"> 
-                            <!-- Что тут по названиям -->
-                            <a href="#" class="phone__number">
-                                <img src="/src/img/temp/header/nav/phone.svg" alt="">
-                                <p>+7 (495) 617-14-24</p>
-                            </a>
-                            <div class="support__time">
-                                <p>с 10:00 до 23:00</p>
-                            </div>
-                                
-                        </div>
-                    </div>
-                    <div class="nav__basket">
-                        <div class="basket__money">
-                            <p>0 ₽</p>
-                        </div>
-                        <div class="separator">
-    
-                        </div>
-                        <div class="basket__count">
-                            <a class="basket__img" href="#">
-                                <img src="../img/temp/header/nav/icon_basket.svg" alt="">
-                            </a>
-                        </div>
-                        <!-- <div class="basket__count">
-                            <img src="../img/temp/header/nav/" alt="">
-                        </div> -->
-                    </div>
-                    <div class="nav__account">
-                        <a href="#" class="user__img">
-                            <img src="../img/temp/header/nav/icon_user.svg" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="header__bottom">
-                <div class="menu__container">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                <div class="item__img">
-                                    <img src="../img/temp/header/menu/pizza.svg" alt="">
-                                </div>
-                                <div class="item__name">
-                                    <p>Пицца</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                <div class="item__img">
-                                    <img src="../img/temp/header/menu/sushi.svg" alt="">
-                                </div>
-                                <div class="item__name">
-                                    <p>Суши</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                <div class="item__img">
-                                    <img src="../img/temp/header/menu/rolle.svg" alt="">
-                                </div>
-                                <div class="item__name">
-                                    <p>Роллы</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                <div class="item__img">
-                                    <img src="../img/temp/header/menu/set.svg" alt="">
-                                </div>
-                                <div class="item__name">
-                                    <p>Сеты</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                <div class="item__img">
-                                    <img src="../img/temp/header/menu/wok.svg" alt="">
-                                </div>
-                                <div class="item__name">
-                                    <p>Wok</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                <div class="item__img">
-                                    <img src="../img/temp/header/menu/soup.svg" alt="">
-                                </div>
-                                <div class="item__name">
-                                    <p>Супы</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                <div class="item__img">
-                                    <img src="../img/temp/header/menu/salads.svg" alt="">
-                                </div>
-                                <div class="item__name">
-                                    <p>Салаты</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                <div class="item__img">
-                                    <img src="../img/temp/header/menu/dessert.svg" alt="">
-                                </div>
-                                <div class="item__name">
-                                    <p>Десерты</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                <div class="item__img">
-                                    <img src="../img/temp/header/menu/drink.svg" alt="">
-                                </div>
-                                <div class="item__name">
-                                    <p>Напитки</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                <div class="item__img">
-                                    <img src="../img/temp/header/menu/sale.svg" alt="">
-                                </div>
-                                <div class="item__name">
-                                    <p>Акции</p>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>           
-        </header>
 
         <div class="content">
             <div class="content__container">
@@ -332,7 +147,7 @@
                 <div class="items">
                     <div class="item">
                         <div class="item__img">
-                            <img src="/src/img/catalog/items/item_1.png" alt="">
+                            <img src="/src/img/catalog/items/item_1.svg" alt="">
                         </div>
                         <div class="item__info">
                             <div class="nutrition-info">
@@ -346,7 +161,7 @@
                                 </div>
                             </div>
                             <div class="item__name">
-                                <p>Ролл "Филадельфия"</p>
+                                <a href="#">Ролл "Филадельфия"</a>
                             </div>
                             <div class="item__contains">
                                 <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
@@ -361,7 +176,7 @@
                                     </div>
                                 </div>
                                 <button class="button" type="button">
-                                    <p>Заказать</p>
+                                    Заказать
                                 </button>
                             </div>
                             
@@ -370,7 +185,7 @@
                     </div>
                     <div class="item">
                         <div class="item__img">
-                            <img src="/src/img/catalog/items/item_2.png" alt="">
+                            <img src="/src/img/catalog/items/item_2.svg" alt="">
                         </div>
                         <div class="item__info">
                             <div class="nutrition-info">
@@ -385,7 +200,7 @@
                                 </div>
                             </div>
                             <div class="item__name">
-                                <p>Ролл "Сливочная креветка"</p>
+                                <a href="#">Ролл "Сливочная креветка"</a>
                             </div>
                             <div class="item__contains">
                                 <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
@@ -400,7 +215,7 @@
                                     </div>
                                 </div>
                                 <button class="button" type="button">
-                                    <p>Заказать</p>
+                                    Заказать
                                 </button>
                             </div>
                             
@@ -409,7 +224,7 @@
                     </div>
                     <div class="item">
                         <div class="item__img">
-                            <img src="/src/img/catalog/items/item_3.png" alt="">
+                            <img src="/src/img/catalog/items/item_3.svg" alt="">
                         </div>
                         <div class="item__info">
                             <div class="nutrition-info">
@@ -424,7 +239,7 @@
                                 </div>
                             </div>
                             <div class="item__name">
-                                <p>Ролл "Чикен энд Чиз"</p>
+                                <a href="#">Ролл "Чикен энд Чиз"</a>
                             </div>
                             <div class="item__contains">
                                 <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
@@ -438,8 +253,11 @@
                                         <p>199 ₽ </p>
                                     </div>
                                 </div>
+                                <div class="item-cart__counter">
+                                    <input type="number">
+                                </div>
                                 <button class="button" type="button">
-                                    <p>Заказать</p>
+                                    Заказать
                                 </button>
                             </div>
                             
@@ -448,7 +266,7 @@
                     </div>
                     <div class="item">
                         <div class="item__img">
-                            <img src="/src/img/catalog/items/item_1.png" alt="">
+                            <img src="/src/img/catalog/items/item_1.svg" alt="">
                         </div>
                         <div class="item__info">
                             <div class="nutrition-info">
@@ -462,7 +280,7 @@
                                 </div>
                             </div>
                             <div class="item__name">
-                                <p>Ролл "Филадельфия"</p>
+                                <a href="#">Ролл "Филадельфия"</a>
                             </div>
                             <div class="item__contains">
                                 <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
@@ -477,7 +295,7 @@
                                     </div>
                                 </div>
                                 <button class="button" type="button">
-                                    <p>Заказать</p>
+                                    Заказать
                                 </button>
                             </div>
                             
@@ -486,7 +304,7 @@
                     </div>
                     <div class="item">
                         <div class="item__img">
-                            <img src="/src/img/catalog/items/item_2.png" alt="">
+                            <img src="/src/img/catalog/items/item_2.svg" alt="">
                         </div>
                         <div class="item__info">
                             <div class="nutrition-info">
@@ -501,7 +319,7 @@
                                 </div>
                             </div>
                             <div class="item__name">
-                                <p>Ролл "Сливочная креветка"</p>
+                                <a href="#">Ролл "Сливочная креветка"</a>
                             </div>
                             <div class="item__contains">
                                 <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
@@ -516,7 +334,7 @@
                                     </div>
                                 </div>
                                 <button class="button" type="button">
-                                    <p>Заказать</p>
+                                    Заказать
                                 </button>
                             </div>
                             
@@ -525,7 +343,7 @@
                     </div>
                     <div class="item">
                         <div class="item__img">
-                            <img src="/src/img/catalog/items/item_3.png" alt="">
+                            <img src="/src/img/catalog/items/item_3.svg" alt="">
                         </div>
                         <div class="item__info">
                             <div class="nutrition-info">
@@ -540,7 +358,7 @@
                                 </div>
                             </div>
                             <div class="item__name">
-                                <p>Ролл "Чикен энд Чиз"</p>
+                                <a href="#">Ролл "Чикен энд Чиз"</a>
                             </div>
                             <div class="item__contains">
                                 <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
@@ -555,7 +373,7 @@
                                     </div>
                                 </div>
                                 <button class="button" type="button">
-                                    <p>Заказать</p>
+                                    Заказать
                                 </button>
                             </div>
                             
@@ -564,7 +382,7 @@
                     </div>
                     <div class="item">
                         <div class="item__img">
-                            <img src="/src/img/catalog/items/item_1.png" alt="">
+                            <img src="/src/img/catalog/items/item_1.svg" alt="">
                         </div>
                         <div class="item__info">
                             <div class="nutrition-info">
@@ -578,7 +396,7 @@
                                 </div>
                             </div>
                             <div class="item__name">
-                                <p>Ролл "Филадельфия"</p>
+                                <a href="#">Ролл "Филадельфия"</a>
                             </div>
                             <div class="item__contains">
                                 <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
@@ -593,7 +411,7 @@
                                     </div>
                                 </div>
                                 <button class="button" type="button">
-                                    <p>Заказать</p>
+                                    Заказать
                                 </button>
                             </div>
                             
@@ -602,7 +420,7 @@
                     </div>
                     <div class="item">
                         <div class="item__img">
-                            <img src="/src/img/catalog/items/item_2.png" alt="">
+                            <img src="/src/img/catalog/items/item_2.svg" alt="">
                         </div>
                         <div class="item__info">
                             <div class="nutrition-info">
@@ -617,7 +435,7 @@
                                 </div>
                             </div>
                             <div class="item__name">
-                                <p>Ролл "Сливочная креветка"</p>
+                                <a href="#">Ролл "Сливочная креветка"</a>
                             </div>
                             <div class="item__contains">
                                 <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
@@ -632,7 +450,7 @@
                                     </div>
                                 </div>
                                 <button class="button" type="button">
-                                    <p>Заказать</p>
+                                    Заказать
                                 </button>
                             </div>
                             
@@ -641,7 +459,7 @@
                     </div>
                     <div class="item">
                         <div class="item__img">
-                            <img src="/src/img/catalog/items/item_3.png" alt="">
+                            <img src="/src/img/catalog/items/item_3.svg" alt="">
                         </div>
                         <div class="item__info">
                             <div class="nutrition-info">
@@ -656,7 +474,7 @@
                                 </div>
                             </div>
                             <div class="item__name">
-                                <p>Ролл "Чикен энд Чиз"</p>
+                                <a href="#">Ролл "Чикен энд Чиз"</a>
                             </div>
                             <div class="item__contains">
                                 <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
@@ -671,7 +489,7 @@
                                     </div>
                                 </div>
                                 <button class="button" type="button">
-                                    <p>Заказать</p>
+                                    Заказать
                                 </button>
                             </div>
                             
@@ -699,100 +517,6 @@
         </div>
 
         <!-- footer -->
-        <footer class="footer">
-            <div class="footer__container">
-                <div class="logo__footer">
-                    <a href="#" class="logo__link">
-                        <img src="/src/img/logo.svg" alt="">
-                        <!-- <div class="logo__img">
-                            <img src="/src/img/temp/footer/logo_img.svg" alt="">
-                        </div>
-                        <div class="logo__text">
-                            <img src="/src/img/temp/footer/logo_text.svg" alt="">
-                        </div> -->
-                    </a>
-                </div>
-                <div class="footer__contacts">
-                    <ul class="footer__info row-1">
-                        <li class="info__item">
-                            <p>О нас</p>
-                        </li>
-                        <li class="info__item">
-                            <p>Доставка и оплата</p>
-                        </li>
-                        <li class="info__item">
-                            <p>
-                                Контакты
-                            </p>
-                        </li>
-                    </ul>
-                    <ul class="footer__socials row-1">
-                        <li class="socials__item">
-                            <img src="/src/img/temp/socials/facebook.svg" alt="">
-                        </li>
-                        <li class="socials__item">
-                            <img src="/src/img/temp/socials/instagram.svg" alt="">
-                        </li>
-                        <li class="socials__item">
-                            <img src="/src/img/temp/socials/vk.svg" alt="">
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__menu">
-                    <ul class="footer__menu__row-1 row-1">
-                        <li class="footer__menu__row">
-                            <p>Пицца</p>
-                        </li>
-                        <li class="footer__menu__row">
-                            <p>Суши</p>
-                        </li>
-                        <li class="footer__menu__row">
-                            <p>Роллы</p>
-                        </li>
-                        <li class="footer__menu__row">
-                            <p>Сеты</p>
-                        </li>
-                        <li class="footer__menu__row">
-                            <p>Wok</p>
-                        </li>
-                    </ul>
-                    <ul class="footer__menu__row-2 row-1">
-                        <li class="footer__menu__row">
-                            <p>Супы</p>
-                        </li>
-                        <li class="footer__menu__row">
-                            <p>Салаты</p>
-                        </li>
-                        <li class="footer__menu__row">
-                            <p>Десерты</p>
-                        </li>
-                        <li class="footer__menu__row">
-                            <p>Напитки</p>
-                        </li>
-                        <li class="footer__menu__row">
-                            <p>Акции</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__support">
-                    <div class="footer__phone-number">
-                        <p>
-                            +7 (495) 617-14-24
-                        </p>
-                    </div>
-                    <div class="footer__support-time">
-                        <p>
-                            c 10:00 до 23:00
-                        </p>
-                    </div>
-                    <div class="copyright">
-                        <p>
-                            © Рикша. Все права защищены.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
     </div>
     <script src="/src/script/catalog.js"></script>
 </body>

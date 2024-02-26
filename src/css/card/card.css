@@ -1,0 +1,8 @@
+@import url('/src/css/temp/normalize.css');
+@import url('/src/css/temp/header.css');
+@import url('/src/css/temp/footer.css');
+
+@import url('/src/css/card/item.css');
+@import url('/src/css/card/offers.css');
+@import url('/src/css/card/review.css');
+

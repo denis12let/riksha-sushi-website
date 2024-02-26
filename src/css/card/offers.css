@@ -1,8 +1,18 @@
-.items{
+.offers h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 35px;
+}
+
+.offers{
+    margin-bottom: 80px;
+}
+
+.row-3{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin-bottom: 119px;
 }
 
 .item{
@@ -44,6 +54,14 @@
     margin-bottom: 4px;
 }
 
+.offers-1{
+    margin-bottom: 100px;
+}
+
+.offers-1 .item__name{
+    margin-bottom: 68px;
+}
+
 .item__name a:hover{
     color: rgb(224, 113, 83);;
 }
@@ -65,11 +83,6 @@
     align-items: end;
 }
 
-.price{
-    max-width: 120px;
-    width: 100%;
-}
-
 .old__price p{
     color: rgb(183, 183, 183);
     font-size: 14px;
@@ -85,7 +98,7 @@
     line-height: 40px;
 }
 
-button{
+.offers button{
     background-image: url("/src/img/button.svg");
     border: 1px solid rgb(201, 92, 63);
     border-radius: 2px;
@@ -95,14 +108,14 @@ button{
     height: 44px;
     cursor: pointer;
     color: white;
+
 }
 
-button:hover{
+
+.offers button:hover{
     opacity: 0.85;
 }
 
-button:active {
+.offers button:active {
     opacity: 0.7;
 }
-
-

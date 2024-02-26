@@ -1,0 +1,256 @@
+.content{
+    padding: 40px 0 190px;
+}
+
+.btn-back a{
+    display: flex;
+    gap: 16px;
+}
+
+.arrow, .destination{
+    display: flex;
+    align-items: center;
+}
+
+.arrow img{
+    width: 32px;
+}
+
+.destination p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.btn-back{
+    margin-bottom: 24px;
+}
+
+.content__container > hr:not(.card > hr) {
+    margin-bottom: 57px;
+}
+
+.card{
+    display: flex;
+    gap: 82px;
+    margin-bottom: 53px;
+}
+
+.card__img{
+    max-width: 650px;
+    width: 100%;
+}
+
+.card__img img{
+    margin: 0 auto;
+    max-width: 570px;
+    max-height: 372px;
+}
+
+.card__item{
+    display: flex;
+    flex-direction: column; /*!!!!!!!!!!!!!!!!*/
+    max-width: 531px;
+    width: 100%;
+}
+
+.item__title{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 20.5px;
+}
+
+.item__energy{
+    position: relative;
+    margin-bottom: 93px;
+}
+
+.item__weight p{
+    display: inline;
+}
+
+.item__weight p:first-child{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.item__weight p:last-child{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.item__weight{
+    margin-bottom: 8px;
+}
+
+.item__energies{
+    position: absolute;
+    display: flex;
+    height: 60px;
+    border: 1px solid rgb(226, 225, 225);
+    align-items: center;
+}
+
+.energy__item{
+    display: flex;
+    flex-direction: column;
+    max-height: 44px;
+    padding: 0 40px;
+    align-items: center;
+}
+
+.energy__item:not(:last-child){
+    border-right: 1px solid rgb(226, 225, 225);
+}
+
+.energy__name p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}   
+
+.energy__value p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.item__delivery{
+    display: flex;
+    align-items:end;
+    margin-bottom: 27px;
+}
+
+.delivery__img{
+    margin-right: 13px;
+    width: 21px;
+}
+
+.delivery__time{
+    margin-right: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+.delivery__link a{
+    color: rgb(201, 92, 63);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-decoration-line: underline;
+}
+
+.item__consist{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-bottom: 47px;
+}
+
+.item__consist p:first-child{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;  
+}
+
+.item__consist p:last-child{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;    
+}
+
+.item__order{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.item__price{
+    max-width: 130px;
+    width: 100%;
+}
+
+.price-1 p{
+    color: rgb(183, 183, 183);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-decoration-line: line-through;
+    margin-bottom: -6px;
+}
+
+.price-2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+
+
+button:not(.number>button){
+    background-image: url("/src/img/button.svg");
+    border: 1px solid rgb(201, 92, 63);
+    border-radius: 2px;
+    background-color: rgb(224, 113, 83);
+    width: 100%;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover{
+    opacity: 0.85;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+.item__buy-btn{
+    max-width: 230px;
+    width: 100%;
+    height: 52px;
+}
+
+.item__buy-btn button {
+    max-width: 230px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.number{
+    display: flex;
+    max-width: 129px;
+    width: 100%;
+    height: 52px;
+    padding: 12px 20px;
+    border: 1px solid rgb(226, 225, 225);
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 19px;
+}
+
+.number button{
+    display: flex;
+    background-color: white;
+    color: rgb(224, 113, 83);
+    font-family: TT Interfaces;
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.number-count{
+    padding-top: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
