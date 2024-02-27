@@ -1,0 +1,94 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.menu__title{
+    position: relative;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.menu__title h2 span{
+    color: rgb(183, 183, 183);
+    font-weight: 500;
+}
+
+.menu__title img{
+    position: absolute;
+}
+
+.menu-1 .menu__title img{
+    left: -80px;
+    bottom: 33px;
+}
+
+.menu-2 .menu__title img{
+    left: 284px;
+    bottom: 5px;
+}
+
+.menu-2 .nutrition-info{
+    justify-content: space-between;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.info-1{
+    gap: 8px;
+}
+
+.info-2{
+    gap: 4px;
+    height: 26px;
+}
+
+.size-2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 55px;
+    height: 100%;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: rgb(245, 245, 245);
+}
+
+.size-1{
+    border-radius: 4px;
+    background: rgb(224, 113, 83);
+    width: 55px;
+    height: 26px;
+    padding: 4px 8px;
+}
+
+.size__benefit{
+    position: absolute;
+    top: -17px;
+    white-space: nowrap;
+    right: -2px;
+}
+
+.size-1 p{
+    color: rgb(255, 255, 255);
+}
+
+.info-2 p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.size__benefit p{
+    color: rgb(183, 183, 183);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+

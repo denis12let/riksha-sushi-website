@@ -3,6 +3,7 @@ const plusBtn = document.querySelector(".number-plus");
 const itemCount = document.getElementById("count");
 const price1 = document.querySelector(".price-1 p");
 const price2 = document.querySelector(".price-2 p");
+const reviewBtn = document.getElementById("btn-1");
 
 const priceOld = Number(price1.textContent.slice(0, price1.textContent.length-2));
 const priceNew = Number(price2.textContent.slice(0, price2.textContent.length-2));

@@ -17,17 +17,17 @@
 
 .nutrition-info{
     display: flex;
+    align-items: center;
     gap: 8px;
     height: 17px;
     margin-bottom: 4px;
 }
 
-.nutrition__separator{
+.separator{
     width: 4px;
     height: 4px;
     border-radius: 50%;
     background: rgb(224, 113, 83);
-    margin-top: 4.5px;
 }
 
 .nutrition-info p{
@@ -105,4 +105,8 @@ button:active {
     opacity: 0.7;
 }
 
+/*Для MainPage*/
 
+.menu .item__contains{
+    text-decoration: underline;
+}

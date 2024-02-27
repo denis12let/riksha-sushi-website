@@ -1,0 +1,14 @@
+@import url('/src/css/temp/normalize.css');
+@import url('/src/css/temp/header.css');
+@import url('/src/css/temp/footer.css');
+
+@import url('/src/css/main/features.css');
+@import url('/src/css/catalog/items.css');
+@import url('/src/css/main/populars.css');
+@import url('/src/css/main/benefits.css');
+
+
+
+.content{
+    padding: 48px 0 198px 0;
+}

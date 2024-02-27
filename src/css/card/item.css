@@ -191,7 +191,7 @@
 
 
 
-button:not(.number>button){
+button:not(.number>button, .comm__btn>button){
     background-image: url("/src/img/button.svg");
     border: 1px solid rgb(201, 92, 63);
     border-radius: 2px;

@@ -1,6 +1,7 @@
 @import url('/src/css/temp/normalize.css');
 @import url('/src/css/temp/header.css');
 @import url('/src/css/temp/footer.css');
+
 @import url('/src/css/catalog/filter.css');
 @import url('/src/css/catalog/items.css');
 @import url('/src/css/catalog/story.css');
