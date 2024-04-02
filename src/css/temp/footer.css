@@ -47,6 +47,10 @@ footer a, footer p{
     align-items: center;
 }
 
+.footer__socials .socials__item{
+    cursor: pointer;
+}
+
 
 
 
