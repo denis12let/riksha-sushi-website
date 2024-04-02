@@ -1,3 +1,7 @@
+@import url('/src/css/temp/basketModal.css');
+@import url('/src/css/temp/accountModal.css');
+
+
 /* html{
   box-sizing: border-box;
   min-height: 100%;
@@ -76,6 +80,10 @@ body{
   margin-bottom: 3px;
 }
 
+.phone__number:hover p{
+  color:rgb(224, 113, 83)
+}
+
 .phone__number p{
   margin-left: 8px;
   color: rgb(27, 27, 27);
@@ -134,19 +142,22 @@ body{
 
 .basket__img{
   width: 18px;
+  cursor: pointer;
 }
 
 .nav__account{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 48px;
   height: 48px;
   border-radius: 6px;
   background: rgb(245, 245, 245);
 }
 
-.user__img img{
+.account__modal-btn-0 img{
   width: 16px;
   margin: 0 auto;
-  padding-top: 25%;
 }
 
 /*header__bottom*/
@@ -191,13 +202,14 @@ body{
   text-align: left;
 }
 
+header .menu__item:hover p{
+  color:rgb(224, 113, 83);
+}
+
 header a:hover{
   color:rgb(224, 113, 83);
 }
 
-header a p:hover{
-  color:rgb(224, 113, 83)
-}
 
 
 

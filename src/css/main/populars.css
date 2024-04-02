@@ -1,7 +1,14 @@
 .menu{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+}
+
+.menu-1{
+    margin-bottom: 152px;
+}
+
+.menu-2{
+    margin-bottom: 204px;
 }
 
 .menu__title{
@@ -9,6 +16,7 @@
     font-size: 48px;
     font-weight: 600;
     line-height: 60px;
+    margin-bottom: 40px;
 }
 
 .menu__title h2 span{

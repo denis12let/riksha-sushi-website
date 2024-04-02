@@ -76,3 +76,7 @@ a, p, h1, h2, h3, h4, h5, h6{
 hr{
   border: 1px solid rgb(226, 225, 225);
 }
+
+button, a{
+  cursor: pointer;
+}

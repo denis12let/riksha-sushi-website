@@ -1,0 +1,103 @@
+.menu-3 .menu__title{
+    position: relative;
+}
+
+.menu-3 .menu__title img{
+    position: absolute;
+    left: 234px;
+    bottom: 13px;
+}
+
+.menu-3{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 124px;
+}
+
+.menu-3 ul{
+    max-width: 1224px;
+    width: 100%;
+    margin-left: 0;
+    background-color: white;
+    padding: 18px 0 18px 12px;
+    border-radius: 16px;
+    margin-bottom: 31px;
+}
+
+.menu-3 .menu__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
+    min-width: 126px;
+}
+
+.menu-3 .menu__item img{
+    width: 24px;
+}
+
+.menu-3 .menu__item p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.menu-3 .menu__item button p:active{
+    color: rgb(255, 255, 255);
+}
+
+.menu-3 .menu__list button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 126px;
+    height: 100%;
+    background-color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    gap: 8px;
+}
+
+.menu-3 .menu__list button:active{
+    border-radius: 12px;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(224, 113, 83);
+}
+
+.menu-3 ul{
+    gap: 0;
+}
+
+.menu-3 .nutrition-info{
+    justify-content: space-between;
+}
+
+.menu-3 .item{
+    height: 479px;
+}
+
+.menu-3 .items:first-child{
+    margin-bottom: 24px;
+}
+
+.items-2{
+    margin-bottom: 50px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.pag__catalog-link a{
+    display: flex;
+    align-items: center;
+}
+
+.pag__catalog-link a p{
+    color: rgb(201, 92, 63);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+}

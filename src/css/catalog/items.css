@@ -2,8 +2,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin-bottom: 119px;
 }
+
+
 
 .item{
     width: 392px;
@@ -85,7 +86,7 @@
     line-height: 40px;
 }
 
-button{
+.items button{
     background-image: url("/src/img/button.svg");
     border: 1px solid rgb(201, 92, 63);
     border-radius: 2px;
@@ -97,16 +98,16 @@ button{
     color: white;
 }
 
-button:hover{
+.items button:hover{
     opacity: 0.85;
 }
 
-button:active {
+.items button:active {
     opacity: 0.7;
 }
 
 /*Для MainPage*/
 
-.menu .item__contains{
+.menu-2 .item__contains{
     text-decoration: underline;
 }

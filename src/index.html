@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+     <title>Document</title>
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fonts/TT Interface/stylesheet.css">
     <link rel="stylesheet" href="/src/css/main/main.css">
+
+
+
 
 </head>
 <body>
@@ -70,18 +72,18 @@
     
                         </div>
                         <div class="basket__count">
-                            <a class="basket__img" href="#">
+                            <button id="basket__modal-btn-1" class="basket__img basket__modal-btn" href="#">
                                 <img src="/src/img/temp/header/nav/icon_basket.svg" alt="">
-                            </a>
+                            </button>
                         </div>
                         <!-- <div class="basket__count">
                             <img src="/src/img/temp/header/nav/" alt="">
                         </div> -->
                     </div>
                     <div class="nav__account">
-                        <a href="#" class="user__img">
+                        <button id="account__modal-btn-0" class="account__modal-btn-0" href="#">
                             <img src="/src/img/temp/header/nav/icon_user.svg" alt="">
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -194,920 +196,1014 @@
         </header>
 
         <div class="content">
-            <div class="content__container">
-                <div class="banner">
-                    <div class="banner__text">
-                        <div class="banner__title">
-                            <h1>
-                                <span class="h1-top">
-                                    Калифорния <span>в подарок</span>
-                                </span>  
-                                при первом заказе
-                            </h1>
+                <div class="content__container">
+                    <div class="banner">
+                        <div class="banner__text">
+                            <div class="banner__title">
+                                <h1>
+                                    <span class="h1-top">
+                                        Калифорния <span>в подарок</span>
+                                    </span>  
+                                    при первом заказе
+                                </h1>
+                            </div>
+                            <div class="banner__subtitle">
+                                <p>от 1500 ₽</p>
+                            </div>
                         </div>
-                        <div class="banner__subtitle">
-                            <p>от 1500 ₽</p>
+                        <div class="banner__img">
+                            <img src="/src/img/main/banner.svg" alt="">
+                        </div>
+                        <div class="banner__btn">
+                            <button>Подробнее</button>
                         </div>
                     </div>
-                    <div class="banner__img">
-                        <img src="/src/img/main/banner.svg" alt="">
-                    </div>
-                    <div class="banner__btn">
-                        <button>Подробнее</button>
-                    </div>
-                </div>
-                <ul class="advantages">
-                    <li class="advantages__item">
-                        <div class="advantage__img">
-                            <img src="/src/img/main/advantages/advantage_1.svg" alt="">
-                        </div>
-                        <div class="advantage__circle">
-                            <div class="circle__wrap">
-                                <img src="/src/img/main/advantages/basket.svg" alt="">
-                                <div class="circle"></div>
+                    <ul class="advantages">
+                        <li class="advantages__item">
+                            <div class="advantage__img">
+                                <img src="/src/img/main/advantages/advantage_1.svg" alt="">
                             </div>
-                        </div>
-                        <div class="advantage__text">
-                            <p>
-                                <span>доставка</span> при заказе от 600 ₽
-                            </p>
-                        </div>
-                    </li>
-                    <li class="advantages__item">
-                        <div class="advantage__img">
-                            <img src="/src/img/main/advantages/advantage_2.svg" alt="">
-                        </div>
-                        <div class="advantage__circle">
-                            <div class="circle__wrap">
-                                <img src="/src/img/main/advantages/clock.svg" alt="">
-                                <div class="circle"></div>
+                            <div class="advantage__circle">
+                                <div class="circle__wrap">
+                                    <img src="/src/img/main/advantages/basket.svg" alt="">
+                                    <div class="circle"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="advantage__text">
-                            <p>
-                                <span>за 60 мин</span> или проморол за опоздание
-                            </p>
-                        </div>
-                    </li>
-                    <li class="advantages__item">
-                        <div class="advantage__img">
-                            <img src="/src/img/main/advantages/advantage_3.svg" alt="">
-                        </div>
-                        <div class="advantage__circle">
-                            <div class="circle__wrap">
-                                <img src="/src/img/main/advantages/gift.svg" alt="">
-                                <div class="circle"></div>
+                            <div class="advantage__text">
+                                <p>
+                                    <span>доставка</span> при заказе от 600 ₽
+                                </p>
                             </div>
-                        </div>                            
-                        <div class="advantage__text">
-                            <p>
-                                <span>бонусы</span> бонусная система 1 ₽ = 1 бонус
-                            </p>
-                        </div>
-                    </li>
-                    <li class="advantages__item">
-                        <div class="advantage__img">
-                            <img src="/src/img/main/advantages/advantage_4.svg" alt="">
-                        </div>
-                        <div class="advantage__circle">
-                            <div class="circle__wrap">
-                                <img src="/src/img/main/advantages/fish.svg" alt="">
-                                <div class="circle"></div>
-                            </div>
-                        </div>
-                        <div class="advantage__text">
-                            <p>
-                                <span>продукты</span> Никаких заготовок
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-                <div class="menu menu-1">
-                    <div class="menu__title">
-                        <img src="/src/img/main/titles/title_1.svg" alt="">
-                        <h2>Топ позиции <span>Новинки</span></h2>
-                    </div>
-                    <div class="items">
-                        <div class="item">
-                            <div class="item__img">
-                                <img src="/src/img/catalog/items/item_1.svg" alt="">
-                            </div>
-                            <div class="item__info">
-                                <div class="nutrition-info">
-                                    <div class="grams">
-                                        <p>200 грамм</p>
-                                    </div>
-                                    <div class="nutrition__separator separator">
-                                    </div>
-                                    <div class="callories">
-                                        <p>130 Ккал</p>
-                                    </div>
-                                </div>
-                                <div class="item__name">
-                                    <a href="#">Ролл "Филадельфия"</a>
-                                </div>
-                                <div class="item__contains">
-                                    <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
-                                </div>
-                                <div class="order__field">
-                                    <div class="price">
-                                        <div class="old__price">
-                                            <p>269 ₽</p>
-                                        </div>
-                                        <div class="new__price">
-                                            <p>219 ₽</p>
-                                        </div>
-                                    </div>
-                                    <button class="button" type="button">
-                                        Заказать
-                                    </button>
-                                </div>
-                                
-                            </div>
-
-                        </div>
-                        <div class="item">
-                            <div class="item__img">
-                                <img src="/src/img/catalog/items/item_2.svg" alt="">
-                            </div>
-                            <div class="item__info">
-                                <div class="nutrition-info">
-                                    <div class="grams">
-                                        <p>200 грамм</p>
-                                    </div>
-                                    <div class="nutrition__separator separator">
-
-                                    </div>
-                                    <div class="callories">
-                                        <p>130 Ккал</p>
-                                    </div>
-                                </div>
-                                <div class="item__name">
-                                    <a href="#">Ролл "Сливочная креветка"</a>
-                                </div>
-                                <div class="item__contains">
-                                    <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
-                                </div>
-                                <div class="order__field">
-                                    <div class="price">
-                                        <div class="old__price">
-                                            <p>224 ₽</p>
-                                        </div>
-                                        <div class="new__price">
-                                            <p>219 ₽ </p>
-                                        </div>
-                                    </div>
-                                    <button class="button" type="button">
-                                        Заказать
-                                    </button>
-                                </div>
-                                
-                            </div>
-
-                        </div>
-                        <div class="item">
-                            <div class="item__img">
-                                <img src="/src/img/catalog/items/item_3.svg" alt="">
-                            </div>
-                            <div class="item__info">
-                                <div class="nutrition-info">
-                                    <div class="grams">
-                                        <p>200 грамм</p>
-                                    </div>
-                                    <div class="nutrition__separator separator">
-
-                                    </div>
-                                    <div class="callories">
-                                        <p>130 Ккал</p>
-                                    </div>
-                                </div>
-                                <div class="item__name">
-                                    <a href="#">Ролл "Чикен энд Чиз"</a>
-                                </div>
-                                <div class="item__contains">
-                                    <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
-                                </div>
-                                <div class="order__field">
-                                    <div class="price">
-                                        <div class="old__price">
-                                            <p>232 ₽</p>
-                                        </div>
-                                        <div class="new__price">
-                                            <p>199 ₽ </p>
-                                        </div>
-                                    </div>
-                                    <div class="item-cart__counter">
-                                        <input type="number">
-                                    </div>
-                                    <button class="button" type="button">
-                                        Заказать
-                                    </button>
-                                </div>
-                                
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="menu menu-2">
-                    <div class="menu__title">
-                        <img src="/src/img/main/titles/title_2.svg" alt="">
-                        <h2>Комбо меню</h2>
-                    </div>
-                    <div class="items">
-                        <div class="item">
-                            <div class="item__img">
-                                <img src="/src/img/main/items/item_4.svg" alt="">
-                            </div>
-                            <div class="item__info">
-                                <div class="nutrition-info">
-                                    <div class="info-1 info">
-                                        <div class="grams">
-                                            <p>200 грамм</p>
-                                        </div>
-                                        <div class="nutrition__separator separator">
-                                        </div>
-                                        <div class="callories">
-                                            <p>130 Ккал</p>
-                                        </div>
-                                    </div>
-                                    <div class="info-2 info">
-                                        <div class="size-1">
-                                            <p>30 см</p>
-                                        </div>
-                                        <div class="separator">
-                                            
-                                        </div>
-                                        <div class="size-2">
-                                            <p>50 см</p>
-                                            <div class="size__benefit">
-                                                <p>+150 ₽</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item__name">
-                                    <a href="#">Комбо микс</a>
-                                </div>
-                                <div class="item__contains">
-                                    <p>Пицца Баварская; Сет Фирменный;</p>
-                                </div>
-                                <div class="order__field">
-                                    <div class="price">
-                                        <div class="old__price">
-                                            <p>1 499 ₽</p>
-                                        </div>
-                                        <div class="new__price">
-                                            <p>1 319 ₽</p>
-                                        </div>
-                                    </div>
-                                    <button class="button" type="button">
-                                        Заказать
-                                    </button>
-                                </div>
-                                
-                            </div>
-
-                        </div>
-                        <div class="item">
-                            <div class="item__img">
-                                <img src="/src/img/main/items/item_5.svg" alt="">
-                            </div>
-                            <div class="item__info">
-                                <div class="nutrition-info">
-                                    <div class="info-1 info">
-                                        <div class="grams">
-                                            <p>200 грамм</p>
-                                        </div>
-                                        <div class="nutrition__separator separator">
-                                        </div>
-                                        <div class="callories">
-                                            <p>130 Ккал</p>
-                                        </div>
-                                    </div>
-                                    <div class="info-2 info">
-                                        <div class="size-1">
-                                            <p>30 см</p>
-                                        </div>
-                                        <div class="separator">
-                                            
-                                        </div>
-                                        <div class="size-2">
-                                            <p>50 см</p>
-                                            <div class="size__benefit">
-                                                <p>+150 ₽</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item__name">
-                                    <a href="#">Дабл пицца</a>
-                                </div>
-                                <div class="item__contains">
-                                    <p>Пицца Баварская; Пицца 4 Сыра; Coca-Cola (1 л)</p>
-                                </div>
-                                <div class="order__field">
-                                    <div class="price">
-                                        <div class="old__price">
-                                            <p>999 ₽</p>
-                                        </div>
-                                        <div class="new__price">
-                                            <p>899 ₽</p>
-                                        </div>
-                                    </div>
-                                    <button class="button" type="button">
-                                        Заказать
-                                    </button>
-                                </div>
-                                
-                            </div>
-
-                        </div>
-                        <div class="item">
-                            <div class="item__img">
-                                <img src="/src/img/main/items/item_6.svg" alt="">
-                            </div>
-                            <div class="item__info">
-                                <div class="nutrition-info">
-                                    <div class="info-1 info">
-                                        <div class="grams">
-                                            <p>200 грамм</p>
-                                        </div>
-                                        <div class="nutrition__separator separator">
-                                        </div>
-                                        <div class="callories">
-                                            <p>130 Ккал</p>
-                                        </div>
-                                    </div>
-                                    <div class="info-2 info">
-                                        <div class="size-1">
-                                            <p>30 см</p>
-                                        </div>
-                                        <div class="separator">
-                                            
-                                        </div>
-                                        <div class="size-2">
-                                            <p>50 см</p>
-                                            <div class="size__benefit">
-                                                <p>+150 ₽</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item__name">
-                                    <a href="#">Комбо Small party</a>
-                                </div>
-                                <div class="item__contains">
-                                    <p>Пицца Неаполитано; Пицца Царская; Сет Суши шок;</p>
-                                </div>
-                                <div class="order__field">
-                                    <div class="price">
-                                        <div class="old__price">
-                                            <p>2 111 ₽</p>
-                                        </div>
-                                        <div class="new__price">
-                                            <p>1 799 ₽</p>
-                                        </div>
-                                    </div>
-                                    <button class="button" type="button">
-                                        Заказать
-                                    </button>
-                                </div>
-                                
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="stock">
-                    <div class="stock__title">
-                        <h2>Акции</h2>
-                        <img src="/src/img/main/titles/title_3.svg" alt="">
-                    </div>
-                    <ul class="stock__list">
-                        <li class="stock__item">
-                            <div class="stock__item-text">
-                                <h3>
-                                    Празднуй день рождения вместе с нами
-                                </h3>
-                                <p>Ролл в подарок при заказе в день рождения</p>
-                            </div>
-                            <img src="/src/img/main/benefits/benefit_1.svg" alt="">
-                            <img src="/src/img/main/benefits/wave_1.svg" alt="">
                         </li>
-                        <li class="stock__item">
-                            <div class="stock__item-text">
-                                <h3>
-                                    Доставим заказ за 60 мин
-                                </h3>
-                                <p>или проморол за опоздание</p>
+                        <li class="advantages__item">
+                            <div class="advantage__img">
+                                <img src="/src/img/main/advantages/advantage_2.svg" alt="">
                             </div>
-                            <img src="/src/img/main/benefits/benefit_1.svg" alt="">
-                            <img src="/src/img/main/benefits/wave_1.svg" alt="">
+                            <div class="advantage__circle">
+                                <div class="circle__wrap">
+                                    <img src="/src/img/main/advantages/clock.svg" alt="">
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
+                            <div class="advantage__text">
+                                <p>
+                                    <span>за 60 мин</span> или проморол за опоздание
+                                </p>
+                            </div>
                         </li>
-                        <li class="stock__item">
-                            <div class="stock__item-text">
-                                <h3>
-                                    Приведи друга 
-                                </h3>
-                                <p>и получи 250 ₽ на бонусный счет</p>
+                        <li class="advantages__item">
+                            <div class="advantage__img">
+                                <img src="/src/img/main/advantages/advantage_3.svg" alt="">
                             </div>
-                            <img src="/src/img/main/benefits/benefit_1.svg" alt="">
-                            <img src="/src/img/main/benefits/wave_1.svg" alt="">
+                            <div class="advantage__circle">
+                                <div class="circle__wrap">
+                                    <img src="/src/img/main/advantages/gift.svg" alt="">
+                                    <div class="circle"></div>
+                                </div>
+                            </div>                            
+                            <div class="advantage__text">
+                                <p>
+                                    <span>бонусы</span> бонусная система 1 ₽ = 1 бонус
+                                </p>
+                            </div>
+                        </li>
+                        <li class="advantages__item">
+                            <div class="advantage__img">
+                                <img src="/src/img/main/advantages/advantage_4.svg" alt="">
+                            </div>
+                            <div class="advantage__circle">
+                                <div class="circle__wrap">
+                                    <img src="/src/img/main/advantages/fish.svg" alt="">
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
+                            <div class="advantage__text">
+                                <p>
+                                    <span>продукты</span> Никаких заготовок
+                                </p>
+                            </div>
                         </li>
                     </ul>
-                </div>
-                <div class="menu-3 menu">
-                    <div class="menu__title">
-                        <img src="/src/img/main/titles/title_4.svg" alt="">
-                        <h2>Категории</h2>
+                    <div class="menu menu-1">
+                        <div class="menu__title">
+                            <img src="/src/img/main/titles/title_1.svg" alt="">
+                            <h2>Топ позиции <span>Новинки</span></h2>
+                        </div>
+                        <div class="items">
+                            <div class="item">
+                                <div class="item__img">
+                                    <img src="/src/img/catalog/items/item_1.svg" alt="">
+                                </div>
+                                <div class="item__info">
+                                    <div class="nutrition-info">
+                                        <div class="grams">
+                                            <p>200 грамм</p>
+                                        </div>
+                                        <div class="nutrition__separator separator">
+                                        </div>
+                                        <div class="callories">
+                                            <p>130 Ккал</p>
+                                        </div>
+                                    </div>
+                                    <div class="item__name">
+                                        <a href="#">Ролл "Филадельфия"</a>
+                                    </div>
+                                    <div class="item__contains">
+                                        <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
+                                    </div>
+                                    <div class="order__field">
+                                        <div class="price">
+                                            <div class="old__price">
+                                                <p>269 ₽</p>
+                                            </div>
+                                            <div class="new__price">
+                                                <p>219 ₽</p>
+                                            </div>
+                                        </div>
+                                        <button class="button" type="button">
+                                            Заказать
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                            <div class="item">
+                                <div class="item__img">
+                                    <img src="/src/img/catalog/items/item_2.svg" alt="">
+                                </div>
+                                <div class="item__info">
+                                    <div class="nutrition-info">
+                                        <div class="grams">
+                                            <p>200 грамм</p>
+                                        </div>
+                                        <div class="nutrition__separator separator">
+
+                                        </div>
+                                        <div class="callories">
+                                            <p>130 Ккал</p>
+                                        </div>
+                                    </div>
+                                    <div class="item__name">
+                                        <a href="#">Ролл "Сливочная креветка"</a>
+                                    </div>
+                                    <div class="item__contains">
+                                        <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
+                                    </div>
+                                    <div class="order__field">
+                                        <div class="price">
+                                            <div class="old__price">
+                                                <p>224 ₽</p>
+                                            </div>
+                                            <div class="new__price">
+                                                <p>219 ₽ </p>
+                                            </div>
+                                        </div>
+                                        <button class="button" type="button">
+                                            Заказать
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                            <div class="item">
+                                <div class="item__img">
+                                    <img src="/src/img/catalog/items/item_3.svg" alt="">
+                                </div>
+                                <div class="item__info">
+                                    <div class="nutrition-info">
+                                        <div class="grams">
+                                            <p>200 грамм</p>
+                                        </div>
+                                        <div class="nutrition__separator separator">
+
+                                        </div>
+                                        <div class="callories">
+                                            <p>130 Ккал</p>
+                                        </div>
+                                    </div>
+                                    <div class="item__name">
+                                        <a href="#">Ролл "Чикен энд Чиз"</a>
+                                    </div>
+                                    <div class="item__contains">
+                                        <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
+                                    </div>
+                                    <div class="order__field">
+                                        <div class="price">
+                                            <div class="old__price">
+                                                <p>232 ₽</p>
+                                            </div>
+                                            <div class="new__price">
+                                                <p>199 ₽ </p>
+                                            </div>
+                                        </div>
+                                        <div class="item-cart__counter">
+                                            <input type="number">
+                                        </div>
+                                        <button class="button" type="button">
+                                            Заказать
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
-                    <div class="menu__container">
+                    <div class="menu menu-2">
+                        <div class="menu__title">
+                            <img src="/src/img/main/titles/title_2.svg" alt="">
+                            <h2>Комбо меню</h2>
+                        </div>
+                        <div class="items">
+                            <div class="item">
+                                <div class="item__img">
+                                    <img src="/src/img/main/items/item_4.svg" alt="">
+                                </div>
+                                <div class="item__info">
+                                    <div class="nutrition-info">
+                                        <div class="info-1 info">
+                                            <div class="grams">
+                                                <p>200 грамм</p>
+                                            </div>
+                                            <div class="nutrition__separator separator">
+                                            </div>
+                                            <div class="callories">
+                                                <p>130 Ккал</p>
+                                            </div>
+                                        </div>
+                                        <div class="info-2 info">
+                                            <div class="size-1">
+                                                <p>30 см</p>
+                                            </div>
+                                            <div class="separator">
+                                                
+                                            </div>
+                                            <div class="size-2">
+                                                <p>50 см</p>
+                                                <div class="size__benefit">
+                                                    <p>+150 ₽</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item__name">
+                                        <a href="#">Комбо микс</a>
+                                    </div>
+                                    <div class="item__contains">
+                                        <p>Пицца Баварская; Сет Фирменный;</p>
+                                    </div>
+                                    <div class="order__field">
+                                        <div class="price">
+                                            <div class="old__price">
+                                                <p>1 499 ₽</p>
+                                            </div>
+                                            <div class="new__price">
+                                                <p>1 319 ₽</p>
+                                            </div>
+                                        </div>
+                                        <button class="button" type="button">
+                                            Заказать
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                            <div class="item">
+                                <div class="item__img">
+                                    <img src="/src/img/main/items/item_5.svg" alt="">
+                                </div>
+                                <div class="item__info">
+                                    <div class="nutrition-info">
+                                        <div class="info-1 info">
+                                            <div class="grams">
+                                                <p>200 грамм</p>
+                                            </div>
+                                            <div class="nutrition__separator separator">
+                                            </div>
+                                            <div class="callories">
+                                                <p>130 Ккал</p>
+                                            </div>
+                                        </div>
+                                        <div class="info-2 info">
+                                            <div class="size-1">
+                                                <p>30 см</p>
+                                            </div>
+                                            <div class="separator">
+                                                
+                                            </div>
+                                            <div class="size-2">
+                                                <p>50 см</p>
+                                                <div class="size__benefit">
+                                                    <p>+150 ₽</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item__name">
+                                        <a href="#">Дабл пицца</a>
+                                    </div>
+                                    <div class="item__contains">
+                                        <p>Пицца Баварская; Пицца 4 Сыра; Coca-Cola (1 л)</p>
+                                    </div>
+                                    <div class="order__field">
+                                        <div class="price">
+                                            <div class="old__price">
+                                                <p>999 ₽</p>
+                                            </div>
+                                            <div class="new__price">
+                                                <p>899 ₽</p>
+                                            </div>
+                                        </div>
+                                        <button class="button" type="button">
+                                            Заказать
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                            <div class="item">
+                                <div class="item__img">
+                                    <img src="/src/img/main/items/item_6.svg" alt="">
+                                </div>
+                                <div class="item__info">
+                                    <div class="nutrition-info">
+                                        <div class="info-1 info">
+                                            <div class="grams">
+                                                <p>200 грамм</p>
+                                            </div>
+                                            <div class="nutrition__separator separator">
+                                            </div>
+                                            <div class="callories">
+                                                <p>130 Ккал</p>
+                                            </div>
+                                        </div>
+                                        <div class="info-2 info">
+                                            <div class="size-1">
+                                                <p>30 см</p>
+                                            </div>
+                                            <div class="separator">
+                                                
+                                            </div>
+                                            <div class="size-2">
+                                                <p>50 см</p>
+                                                <div class="size__benefit">
+                                                    <p>+150 ₽</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item__name">
+                                        <a href="#">Комбо Small party</a>
+                                    </div>
+                                    <div class="item__contains">
+                                        <p>Пицца Неаполитано; Пицца Царская; Сет Суши шок;</p>
+                                    </div>
+                                    <div class="order__field">
+                                        <div class="price">
+                                            <div class="old__price">
+                                                <p>2 111 ₽</p>
+                                            </div>
+                                            <div class="new__price">
+                                                <p>1 799 ₽</p>
+                                            </div>
+                                        </div>
+                                        <button class="button" type="button">
+                                            Заказать
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stock">
+                        <div class="stock__title">
+                            <h2>Акции</h2>
+                            <img src="/src/img/main/titles/title_3.svg" alt="">
+                        </div>
+                        <ul class="stock__list">
+                            <li class="stock__item">
+                                <div class="stock__item-text">
+                                    <h3>
+                                        Празднуй день рождения вместе с нами
+                                    </h3>
+                                    <p>Ролл в подарок при заказе в день рождения</p>
+                                </div>
+                                <div class="wave-4 wave">
+                                    <img src="/src/img/main/benefits/wave1/wave_4.svg" alt="">
+                                </div>
+                                <div class="wave-5 wave">
+                                    <img src="/src/img/main/benefits/wave1/wave_5.svg" alt="">
+                                </div>
+                                <div class="wave-6 wave">
+                                    <img src="/src/img/main/benefits/wave1/wave_6.svg" alt="">
+                                </div>
+                                <div class="wave-1 wave">
+                                    <img src="/src/img/main/benefits/wave1/wave_1.svg" alt="">
+                                </div>
+                                <div class="wave-2 wave">
+                                    <img src="/src/img/main/benefits/wave1/wave_2.svg" alt="">
+                                </div>
+                                <div class="wave-3 wave">
+                                    <img src="/src/img/main/benefits/wave1/wave_3.svg" alt="">
+                                </div>
+                                <img src="/src/img/main/benefits/benefit_1.svg" alt="">
+                            </li>
+                            <li class="stock__item">
+                                <div class="stock__item-text">
+                                    <h3>
+                                        Доставим заказ за 60 мин
+                                    </h3>
+                                    <p>или проморол за опоздание</p>
+                                </div>
+                                <div class="wave-4 wave">
+                                    <img src="/src/img/main/benefits/wave2/wave_4.svg" alt="">
+                                </div>
+                                <div class="wave-5 wave">
+                                    <img src="/src/img/main/benefits/wave2/wave_5.svg" alt="">
+                                </div>
+                                <div class="wave-6 wave">
+                                    <img src="/src/img/main/benefits/wave2/wave_6.svg" alt="">
+                                </div>
+                                <div class="wave-1 wave">
+                                    <img src="/src/img/main/benefits/wave2/wave_1.svg" alt="">
+                                </div>
+                                <div class="wave-2 wave">
+                                    <img src="/src/img/main/benefits/wave2/wave_2.svg" alt="">
+                                </div>
+                                <div class="wave-3 wave">
+                                    <img src="/src/img/main/benefits/wave2/wave_3.svg" alt="">
+                                </div>
+                                <img src="/src/img/main/benefits/benefit_2.svg" alt="">
+                            </li>
+                            <li class="stock__item">
+                                <div class="stock__item-text">
+                                    <h3>
+                                        Приведи друга 
+                                    </h3>
+                                    <p>и получи 250 ₽ на бонусный счет</p>
+                                </div>
+                                <div class="wave-4 wave">
+                                    <img src="/src/img/main/benefits/wave3/wave_4.svg" alt="">
+                                </div>
+                                <div class="wave-5 wave">
+                                    <img src="/src/img/main/benefits/wave3/wave_5.svg" alt="">
+                                </div>
+                                <div class="wave-6 wave">
+                                    <img src="/src/img/main/benefits/wave3/wave_6.svg" alt="">
+                                </div>
+                                <div class="wave-1 wave">
+                                    <img src="/src/img/main/benefits/wave3/wave_1.svg" alt="">
+                                </div>
+                                <div class="wave-2 wave">
+                                    <img src="/src/img/main/benefits/wave3/wave_2.svg" alt="">
+                                </div>
+                                <div class="wave-3 wave">
+                                    <img src="/src/img/main/benefits/wave3/wave_3.svg" alt="">
+                                </div>
+                                <img src="/src/img/main/benefits/benefit_3.svg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu-3 menu">
+                        <div class="menu__title">
+                            <img src="/src/img/main/titles/title_4.svg" alt="">
+                            <h2>Категории</h2>
+                        </div>
                         <ul class="menu__list">
                             <li class="menu__item">
-                                <a href="#" class="menu__link">
+                                <button class="menu__btn">
                                     <div class="item__img">
                                         <img src="/src/img/temp/header/menu/pizza.svg" alt="">
                                     </div>
                                     <div class="item__name">
                                         <p>Пицца</p>
                                     </div>
-                                </a>
+                                </button>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">
+                                <button class="menu__btn">
                                     <div class="item__img">
                                         <img src="/src/img/temp/header/menu/sushi.svg" alt="">
                                     </div>
                                     <div class="item__name">
                                         <p>Суши</p>
                                     </div>
-                                </a>
+                                </button>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">
+                                <button class="menu__btn">
                                     <div class="item__img">
                                         <img src="/src/img/temp/header/menu/rolle.svg" alt="">
                                     </div>
                                     <div class="item__name">
                                         <p>Роллы</p>
                                     </div>
-                                </a>
+                                </button>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">
+                                <button class="menu__btn">
                                     <div class="item__img">
                                         <img src="/src/img/temp/header/menu/set.svg" alt="">
                                     </div>
                                     <div class="item__name">
                                         <p>Сеты</p>
                                     </div>
-                                </a>
+                                </button>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">
+                                <button class="menu__btn">
                                     <div class="item__img">
                                         <img src="/src/img/temp/header/menu/wok.svg" alt="">
                                     </div>
                                     <div class="item__name">
                                         <p>Wok</p>
                                     </div>
-                                </a>
+                                </button>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">
+                                <button class="menu__btn">
                                     <div class="item__img">
                                         <img src="/src/img/temp/header/menu/soup.svg" alt="">
                                     </div>
                                     <div class="item__name">
                                         <p>Супы</p>
                                     </div>
-                                </a>
+                                </button>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">
+                                <button class="menu__btn">
                                     <div class="item__img">
                                         <img src="/src/img/temp/header/menu/salads.svg" alt="">
                                     </div>
                                     <div class="item__name">
                                         <p>Салаты</p>
                                     </div>
-                                </a>
+                                </button>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">
+                                <button class="menu__btn">
                                     <div class="item__img">
                                         <img src="/src/img/temp/header/menu/dessert.svg" alt="">
                                     </div>
                                     <div class="item__name">
                                         <p>Десерты</p>
                                     </div>
-                                </a>
+                                </button>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">
+                                <button class="menu__btn">
                                     <div class="item__img">
                                         <img src="/src/img/temp/header/menu/drink.svg" alt="">
                                     </div>
                                     <div class="item__name">
                                         <p>Напитки</p>
                                     </div>
-                                </a>
+                                </button>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">
+                                <button class="menu__btn">
                                     <div class="item__img">
                                         <img src="/src/img/temp/header/menu/sale.svg" alt="">
                                     </div>
                                     <div class="item__name">
                                         <p>Акции</p>
                                     </div>
-                                </a>
+                                </button>
                             </li>
                         </ul>
+                        <div class="items">
+                            <div class="item">
+                                <div class="item__img">
+                                    <img src="/src/img/main/menu/item_6.svg" alt="">
+                                </div>
+                                <div class="item__info">
+                                    <div class="nutrition-info">
+                                        <div class="info-1 info">
+                                            <div class="grams">
+                                                <p>200 грамм</p>
+                                            </div>
+                                            <div class="nutrition__separator separator">
+                                            </div>
+                                            <div class="callories">
+                                                <p>130 Ккал</p>
+                                            </div>
+                                        </div>
+                                        <div class="info-2 info">
+                                            <div class="size-1">
+                                                <p>30 см</p>
+                                            </div>
+                                            <div class="separator">
+                                                
+                                            </div>
+                                            <div class="size-2">
+                                                <p>50 см</p>
+                                                <div class="size__benefit">
+                                                    <p>+150 ₽</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item__name">
+                                        <a href="#">Пицца “Рикша”</a>
+                                    </div>
+                                    <div class="item__contains">
+                                        <p>соус томатный, ветчина, баварские колбаски, сыр моцарелла, колбаса салями, прошутто.</p>
+                                    </div>
+                                    <div class="order__field">
+                                        <div class="price">
+                                            <div class="old__price">
+                                                <p>590 ₽</p>
+                                            </div>
+                                            <div class="new__price">
+                                                <p>510 ₽</p>
+                                            </div>
+                                        </div>
+                                        <button class="button" type="button">
+                                            Заказать
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                            <div class="item">
+                                <div class="item__img">
+                                    <img src="/src/img/main/menu/item_2.svg" alt="">
+                                </div>
+                                <div class="item__info">
+                                    <div class="nutrition-info">
+                                        <div class="info-1 info">
+                                            <div class="grams">
+                                                <p>200 грамм</p>
+                                            </div>
+                                            <div class="nutrition__separator separator">
+                                            </div>
+                                            <div class="callories">
+                                                <p>130 Ккал</p>
+                                            </div>
+                                        </div>
+                                        <div class="info-2 info">
+                                            <div class="size-1">
+                                                <p>30 см</p>
+                                            </div>
+                                            <div class="separator">
+                                                
+                                            </div>
+                                            <div class="size-2">
+                                                <p>50 см</p>
+                                                <div class="size__benefit">
+                                                    <p>+150 ₽</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item__name">
+                                        <a href="#">Пицца “Парма”</a>
+                                    </div>
+                                    <div class="item__contains">
+                                        <p>соус бешамель, пармезан, сыр моцарелла, прошутто, руккола.</p>
+                                    </div>
+                                    <div class="order__field">
+                                        <div class="price">
+                                            <div class="old__price">
+                                                <p>699 ₽</p>
+                                            </div>
+                                            <div class="new__price">
+                                                <p>588 ₽</p>
+                                            </div>
+                                        </div>
+                                        <button class="button" type="button">
+                                            Заказать
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                            <div class="item">
+                                <div class="item__img">
+                                    <img src="/src/img/main/menu/item_3.svg" alt="">
+                                </div>
+                                <div class="item__info">
+                                    <div class="nutrition-info">
+                                        <div class="info-1 info">
+                                            <div class="grams">
+                                                <p>200 грамм</p>
+                                            </div>
+                                            <div class="nutrition__separator separator">
+                                            </div>
+                                            <div class="callories">
+                                                <p>130 Ккал</p>
+                                            </div>
+                                        </div>
+                                        <div class="info-2 info">
+                                            <div class="size-1">
+                                                <p>30 см</p>
+                                            </div>
+                                            <div class="separator">
+                                                
+                                            </div>
+                                            <div class="size-2">
+                                                <p>50 см</p>
+                                                <div class="size__benefit">
+                                                    <p>+150 ₽</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item__name">
+                                        <a href="#">Пицца “Цезарио”</a>
+                                    </div>
+                                    <div class="item__contains">
+                                        <p>соус бешамель, помидоры, хрустящий салат, пармезан, куриное мясо, сыр моцарелла, перепелиные яйца, соус "Цезарь".</p>
+                                    </div>
+                                    <div class="order__field">
+                                        <div class="price">
+                                            <div class="old__price">
+                                                <p>590 ₽</p>
+                                            </div>
+                                            <div class="new__price">
+                                                <p>540 ₽</p>
+                                            </div>
+                                        </div>
+                                        <button class="button" type="button">
+                                            Заказать
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                        </div>                
+                        <div class="items items-2">
+                            <div class="item">
+                                <div class="item__img">
+                                    <img src="/src/img/main/menu/item_4.svg" alt="">
+                                </div>
+                                <div class="item__info">
+                                    <div class="nutrition-info">
+                                        <div class="info-1 info">
+                                            <div class="grams">
+                                                <p>200 грамм</p>
+                                            </div>
+                                            <div class="nutrition__separator separator">
+                                            </div>
+                                            <div class="callories">
+                                                <p>130 Ккал</p>
+                                            </div>
+                                        </div>
+                                        <div class="info-2 info">
+                                            <div class="size-1">
+                                                <p>30 см</p>
+                                            </div>
+                                            <div class="separator">
+                                                
+                                            </div>
+                                            <div class="size-2">
+                                                <p>50 см</p>
+                                                <div class="size__benefit">
+                                                    <p>+150 ₽</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item__name">
+                                        <a href="#">Пицца “Пеперони”</a>
+                                    </div>
+                                    <div class="item__contains">
+                                        <p>сыр моцарелла, соус барбекю, пеперони, пармезан, рукола.</p>
+                                    </div>
+                                    <div class="order__field">
+                                        <div class="price">
+                                            <div class="old__price">
+                                                <p>545 ₽</p>
+                                            </div>
+                                            <div class="new__price">
+                                                <p>499 ₽</p>
+                                            </div>
+                                        </div>
+                                        <button class="button" type="button">
+                                            Заказать
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                            <div class="item">
+                                <div class="item__img">
+                                    <img src="/src/img/main/menu/item_5.svg" alt="">
+                                </div>
+                                <div class="item__info">
+                                    <div class="nutrition-info">
+                                        <div class="info-1 info">
+                                            <div class="grams">
+                                                <p>200 грамм</p>
+                                            </div>
+                                            <div class="nutrition__separator separator">
+                                            </div>
+                                            <div class="callories">
+                                                <p>130 Ккал</p>
+                                            </div>
+                                        </div>
+                                        <div class="info-2 info">
+                                            <div class="size-1">
+                                                <p>30 см</p>
+                                            </div>
+                                            <div class="separator">
+                                                
+                                            </div>
+                                            <div class="size-2">
+                                                <p>50 см</p>
+                                                <div class="size__benefit">
+                                                    <p>+150 ₽</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item__name">
+                                        <a href="#">Пицца “Капричоза”</a>
+                                    </div>
+                                    <div class="item__contains">
+                                        <p>соус томатный, сыр моцарелла, ветчина, свежие грибы.</p>
+                                    </div>
+                                    <div class="order__field">
+                                        <div class="price">
+                                            <div class="old__price">
+                                                <p>999 ₽</p>
+                                            </div>
+                                            <div class="new__price">
+                                                <p>899 ₽</p>
+                                            </div>
+                                        </div>
+                                        <button class="button" type="button">
+                                            Заказать
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                            <div class="item">
+                                <div class="item__img">
+                                    <img src="/src/img/main/menu/item_6.svg" alt="">
+                                </div>
+                                <div class="item__info">
+                                    <div class="nutrition-info">
+                                        <div class="info-1 info">
+                                            <div class="grams">
+                                                <p>200 грамм</p>
+                                            </div>
+                                            <div class="nutrition__separator separator">
+                                            </div>
+                                            <div class="callories">
+                                                <p>130 Ккал</p>
+                                            </div>
+                                        </div>
+                                        <div class="info-2 info">
+                                            <div class="size-1">
+                                                <p>30 см</p>
+                                            </div>
+                                            <div class="separator">
+                                                
+                                            </div>
+                                            <div class="size-2">
+                                                <p>50 см</p>
+                                                <div class="size__benefit">
+                                                    <p>+150 ₽</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item__name">
+                                        <a href="#">Пицца “Кватро формаджи”</a>
+                                    </div>
+                                    <div class="item__contains">
+                                        <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
+                                    </div>
+                                    <div class="order__field">
+                                        <div class="price">
+                                            <div class="old__price">
+                                                <p>600 ₽</p>
+                                            </div>
+                                            <div class="new__price">
+                                                <p>525 ₽</p>
+                                            </div>
+                                        </div>
+                                        <button class="button" type="button">
+                                            Заказать
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="pagination">
+                            <div class="pagination__img">
+                                <img src="/src/img/main/menu/pagination_1.svg" alt="">
+                            </div>
+                            <div class="pag__catalog-link">
+                                <a href="/src/pages/catalog.html">
+                                    <p>Перейти в каталог</p>
+                                    <img src="/src/img/main/menu/arr.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="items">
-                        <div class="item">
-                            <div class="item__img">
-                                <img src="/src/img/main/menu/item_1.svg" alt="">
+                    <div class="advantage__story">
+                        <div class="story__text">
+                            <div class="story__title">
+                                <h2>О компании</h2>
+                                <img src="/src/img/main/titles/title_5.svg" alt="">
                             </div>
-                            <div class="item__info">
-                                <div class="nutrition-info">
-                                    <div class="info-1 info">
-                                        <div class="grams">
-                                            <p>200 грамм</p>
-                                        </div>
-                                        <div class="nutrition__separator separator">
-                                        </div>
-                                        <div class="callories">
-                                            <p>130 Ккал</p>
-                                        </div>
-                                    </div>
-                                    <div class="info-2 info">
-                                        <div class="size-1">
-                                            <p>30 см</p>
-                                        </div>
-                                        <div class="separator">
-                                            
-                                        </div>
-                                        <div class="size-2">
-                                            <p>50 см</p>
-                                            <div class="size__benefit">
-                                                <p>+150 ₽</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item__name">
-                                    <a href="#">Пицца “Рикша”</a>
-                                </div>
-                                <div class="item__contains">
-                                    <p>соус томатный, ветчина, баварские колбаски, сыр моцарелла, колбаса салями, прошутто.</p>
-                                </div>
-                                <div class="order__field">
-                                    <div class="price">
-                                        <div class="old__price">
-                                            <p>590 ₽</p>
-                                        </div>
-                                        <div class="new__price">
-                                            <p>510 ₽</p>
-                                        </div>
-                                    </div>
-                                    <button class="button" type="button">
-                                        Заказать
-                                    </button>
-                                </div>
-                                
+                            <div class="story__subtitle">
+                                <p>Вкусная доставка Рикша подарит Вам незабываемые вкусовые впечатления, украсит любой ваш стол и не заставит себя долго ждать. С нами вы сможете забыть о готовке, легко сделать приятное родным и близким, устроить вкусный праздник или расслабится в кругу друзей. Все блюда готовятся исключительно из свежих продуктов и по оригинальным рецептам Нашего шеф-повара. 
+                                    Любая позиция из Нашего Меню может оказаться у Вас на столе максимум через 60 минут! У вас есть возможность сделать предварительный заказ на определенный день и время. </p>
                             </div>
-
                         </div>
-                        <div class="item">
-                            <div class="item__img">
-                                <img src="/src/img/main/menu/item_2.svg" alt="">
+                        <div class="story__photos">
+                            <div class="photo-1">
+                                <img src="/src/img/catalog/story/img_1.png" alt="">
                             </div>
-                            <div class="item__info">
-                                <div class="nutrition-info">
-                                    <div class="info-1 info">
-                                        <div class="grams">
-                                            <p>200 грамм</p>
-                                        </div>
-                                        <div class="nutrition__separator separator">
-                                        </div>
-                                        <div class="callories">
-                                            <p>130 Ккал</p>
-                                        </div>
-                                    </div>
-                                    <div class="info-2 info">
-                                        <div class="size-1">
-                                            <p>30 см</p>
-                                        </div>
-                                        <div class="separator">
-                                            
-                                        </div>
-                                        <div class="size-2">
-                                            <p>50 см</p>
-                                            <div class="size__benefit">
-                                                <p>+150 ₽</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item__name">
-                                    <a href="#">Пицца “Парма”</a>
-                                </div>
-                                <div class="item__contains">
-                                    <p>соус бешамель, пармезан, сыр моцарелла, прошутто, руккола.</p>
-                                </div>
-                                <div class="order__field">
-                                    <div class="price">
-                                        <div class="old__price">
-                                            <p>699 ₽</p>
-                                        </div>
-                                        <div class="new__price">
-                                            <p>588 ₽</p>
-                                        </div>
-                                    </div>
-                                    <button class="button" type="button">
-                                        Заказать
-                                    </button>
-                                </div>
-                                
+                            <div class="photo-2">
+                                <img src="/src/img/catalog/story/img_2.png" alt="">
                             </div>
-
-                        </div>
-                        <div class="item">
-                            <div class="item__img">
-                                <img src="/src/img/main/menu/item_3.svg" alt="">
-                            </div>
-                            <div class="item__info">
-                                <div class="nutrition-info">
-                                    <div class="info-1 info">
-                                        <div class="grams">
-                                            <p>200 грамм</p>
-                                        </div>
-                                        <div class="nutrition__separator separator">
-                                        </div>
-                                        <div class="callories">
-                                            <p>130 Ккал</p>
-                                        </div>
-                                    </div>
-                                    <div class="info-2 info">
-                                        <div class="size-1">
-                                            <p>30 см</p>
-                                        </div>
-                                        <div class="separator">
-                                            
-                                        </div>
-                                        <div class="size-2">
-                                            <p>50 см</p>
-                                            <div class="size__benefit">
-                                                <p>+150 ₽</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item__name">
-                                    <a href="#">Пицца “Цезарио”</a>
-                                </div>
-                                <div class="item__contains">
-                                    <p>соус бешамель, помидоры, хрустящий салат, пармезан, куриное мясо, сыр моцарелла, перепелиные яйца, соус "Цезарь".</p>
-                                </div>
-                                <div class="order__field">
-                                    <div class="price">
-                                        <div class="old__price">
-                                            <p>590 ₽</p>
-                                        </div>
-                                        <div class="new__price">
-                                            <p>540 ₽</p>
-                                        </div>
-                                    </div>
-                                    <button class="button" type="button">
-                                        Заказать
-                                    </button>
-                                </div>
-                                
-                            </div>
-
-                        </div>
-                    </div>                
-                    <div class="items">
-                        <div class="item">
-                            <div class="item__img">
-                                <img src="/src/img/main/menu/item_4.svg" alt="">
-                            </div>
-                            <div class="item__info">
-                                <div class="nutrition-info">
-                                    <div class="info-1 info">
-                                        <div class="grams">
-                                            <p>200 грамм</p>
-                                        </div>
-                                        <div class="nutrition__separator separator">
-                                        </div>
-                                        <div class="callories">
-                                            <p>130 Ккал</p>
-                                        </div>
-                                    </div>
-                                    <div class="info-2 info">
-                                        <div class="size-1">
-                                            <p>30 см</p>
-                                        </div>
-                                        <div class="separator">
-                                            
-                                        </div>
-                                        <div class="size-2">
-                                            <p>50 см</p>
-                                            <div class="size__benefit">
-                                                <p>+150 ₽</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item__name">
-                                    <a href="#">Пицца “Пеперони”</a>
-                                </div>
-                                <div class="item__contains">
-                                    <p>сыр моцарелла, соус барбекю, пеперони, пармезан, рукола.</p>
-                                </div>
-                                <div class="order__field">
-                                    <div class="price">
-                                        <div class="old__price">
-                                            <p>545 ₽</p>
-                                        </div>
-                                        <div class="new__price">
-                                            <p>499 ₽</p>
-                                        </div>
-                                    </div>
-                                    <button class="button" type="button">
-                                        Заказать
-                                    </button>
-                                </div>
-                                
-                            </div>
-
-                        </div>
-                        <div class="item">
-                            <div class="item__img">
-                                <img src="/src/img/main/menu/item_5.svg" alt="">
-                            </div>
-                            <div class="item__info">
-                                <div class="nutrition-info">
-                                    <div class="info-1 info">
-                                        <div class="grams">
-                                            <p>200 грамм</p>
-                                        </div>
-                                        <div class="nutrition__separator separator">
-                                        </div>
-                                        <div class="callories">
-                                            <p>130 Ккал</p>
-                                        </div>
-                                    </div>
-                                    <div class="info-2 info">
-                                        <div class="size-1">
-                                            <p>30 см</p>
-                                        </div>
-                                        <div class="separator">
-                                            
-                                        </div>
-                                        <div class="size-2">
-                                            <p>50 см</p>
-                                            <div class="size__benefit">
-                                                <p>+150 ₽</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item__name">
-                                    <a href="#">Пицца “Капричоза”</a>
-                                </div>
-                                <div class="item__contains">
-                                    <p>соус томатный, сыр моцарелла, ветчина, свежие грибы.</p>
-                                </div>
-                                <div class="order__field">
-                                    <div class="price">
-                                        <div class="old__price">
-                                            <p>999 ₽</p>
-                                        </div>
-                                        <div class="new__price">
-                                            <p>899 ₽</p>
-                                        </div>
-                                    </div>
-                                    <button class="button" type="button">
-                                        Заказать
-                                    </button>
-                                </div>
-                                
-                            </div>
-
-                        </div>
-                        <div class="item">
-                            <div class="item__img">
-                                <img src="/src/img/main/menu/item_6.svg" alt="">
-                            </div>
-                            <div class="item__info">
-                                <div class="nutrition-info">
-                                    <div class="info-1 info">
-                                        <div class="grams">
-                                            <p>200 грамм</p>
-                                        </div>
-                                        <div class="nutrition__separator separator">
-                                        </div>
-                                        <div class="callories">
-                                            <p>130 Ккал</p>
-                                        </div>
-                                    </div>
-                                    <div class="info-2 info">
-                                        <div class="size-1">
-                                            <p>30 см</p>
-                                        </div>
-                                        <div class="separator">
-                                            
-                                        </div>
-                                        <div class="size-2">
-                                            <p>50 см</p>
-                                            <div class="size__benefit">
-                                                <p>+150 ₽</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item__name">
-                                    <a href="#">Пицца “Кватро формаджи”</a>
-                                </div>
-                                <div class="item__contains">
-                                    <p>Лосось, сыр "Филадельфия", огурец, авокадо</p>
-                                </div>
-                                <div class="order__field">
-                                    <div class="price">
-                                        <div class="old__price">
-                                            <p>600 ₽</p>
-                                        </div>
-                                        <div class="new__price">
-                                            <p>525 ₽</p>
-                                        </div>
-                                    </div>
-                                    <button class="button" type="button">
-                                        Заказать
-                                    </button>
-                                </div>
-                                
-                            </div>
-
                         </div>
                     </div>
-                    <div class="pagination">
-                        <div class="pagination__img">
-                            <img src="/src/img/main/menu/pagination_1.svg" alt="">
+                    <div class="company__add">
+                        <div class="add__text">
+                            <p>А вы уже подписались на наш <span>Instagram?</span></p>
                         </div>
-                        <div class="pag__catalog-link">
-                            <a href="/src/pages/catalog.html">
-                                <p>Перейти в каталог</p>
-                                <img src="/src/img/main/menu/arr.svg" alt="">
-                            </a>
+                        <div class="add-btn">
+                            <button>
+                                <img src="/src/img/main/insta.svg" alt="">
+                                <p>@riksha_sushi</p>
+                            </button>
                         </div>
+                    </div>
+                    <div class="images">
+                        <div class="images__item item-1">
+                            <img src="/src/img/main/images/img_1.svg" alt="">
+                        </div>
+                        <div class="images__item item-2">
+                            <img src="/src/img/main/images/img_2.svg" alt="">
+                        </div>
+                        <div class="images__item item-3">
+                            <img src="/src/img/main/images/img_3.svg" alt="">
+                        </div>
+                        <div class="images__item item-4">
+                            <img src="/src/img/main/images/img_6.svg" alt="">
+                        </div>
+                        <div class="images__item item-5">
+                            <img src="/src/img/main/images/img_4.svg" alt="">
+                        </div>
+                        <div class="images__item item-6">
+                            <img src="/src/img/main/images/img_5.svg" alt="">
+                        </div>
+                </div>
+            </div>
+
+
+
+            <!-- footer -->
+        </div>
+        <div class="modal__wrapper-2">
+            <div class="basket__modal">
+                <div class="basket__modal-container">
+                    <div class="basket__modal-img">
+                        <img src="/src/img/temp/header/modal/emptyBasket.svg" alt="">
+                        <p>Ваша корзина пуста</p>
                     </div>
                 </div>
-                <div class="advantage__story">
-                    <div class="story__text">
-                        <div class="story__title">
-                            <h2>О компании</h2>
-                            <img src="/src/img/main/titles/title_5.svg" alt="">
-                        </div>
-                        <div class="story__subtitle">
-                            <p>Вкусная доставка Рикша подарит Вам незабываемые вкусовые впечатления, украсит любой ваш стол и не заставит себя долго ждать. С нами вы сможете забыть  о готовке, легко сделать приятное родным и близким, устроить вкусный праздник или расслабится в кругу друзей. Все блюда готовятся исключительно из свежих продуктов  и по оригинальным рецептам Нашего шеф-повара. 
-                                Любая позиция из Нашего Меню может оказаться у Вас  на столе максимум через 60 минут! У вас есть возможность сделать предварительный заказ на определенный день  и время. </p>
-                        </div>
+                <div class="basket__info">
+                    <div class="basket__info-price">
+                        <p>Сумма заказа:<span>0 ₽</span></p>
                     </div>
-                    <div class="story__photos">
-                        <div class="photo-1">
-                            <img src="/src/img/catalog/story/img_1.png" alt="">
-                        </div>
-                        <div class="photo-2">
-                            <img src="/src/img/catalog/story/img_2.png" alt="">
-                        </div>
+                    <div class="basket__info-button">
+                        <button id="basket__modal-btn-2" class="basket__modal-btn">В каталог</button>
                     </div>
-                </div>
-                <div class="company__add">
-                    <div class="add__text">
-                        <p>А вы уже подписались на наш <span>Instagram?</span></p>
-                    </div>
-                    <div class="add-btn">
-                        <button>
-                            <img src="/src/img/main/insta.svg" alt="">
-                            <p>@riksha_sushi</p>
-                        </button>
-                    </div>
-                </div>
-                <div class="images">
-                    <img src="/src/img/main/images/img_1.svg" alt="">
-                    <img src="/src/img/main/images/img_2.svg" alt="">
-                    <img src="/src/img/main/images/img_3.svg" alt="">
-                    <img src="/src/img/main/images/img_4.svg" alt="">
-                    <img src="/src/img/main/images/img_5.svg" alt="">
-                    <img src="/src/img/main/images/img_6.svg" alt="">
                 </div>
             </div>
         </div>
-
+        <div class="modal__wrapper-3">
+            <div class="account__modal">
+                <div class="account__modal-btn">
+                    <button id="account__modal-btn-1" class="account__modal-btn"></button>
+                </div>
+                <h3>Вход в кабинет</h3>
+                <form action="">
+                    <input type="text" placeholder="Телефон">
+                    <button id="account__modal-btn-2" class="account__modal-btn-2">Отправить код</button>
+                </form>
+            </div>
+        </div>
         <footer class="footer">
             <div class="footer__container">
                 <div class="logo__footer">
@@ -1197,9 +1293,6 @@
             </div>
         </footer>
 
-        <!-- footer -->
-    </div>
-
 
 
 
@@ -1224,5 +1317,8 @@
     <div class="hreg__delivery">
         <a href="/src/pages/delivery.html">delivery</a>
     </div>
+
+    <script src="/src/script/modal/basketModal.js"></script>
+    <script src="/src/script/modal/accountModal.js"></script>
 </body>
 </html>

@@ -1,0 +1,125 @@
+.advantage__story{
+    display: flex;
+    gap: 80px;
+    margin-bottom: 228px;
+}
+
+.story__title{
+    position: relative;
+}
+
+.story__title img{
+    position: absolute;
+    left: 172px;
+    bottom: -2px;
+}
+
+.story__text{
+    padding-top: 57px;
+}
+
+.story__text h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 36px;
+}
+
+.story__text p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 160%;
+    max-width: 453px;
+}
+
+.story__photos{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.photo-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.photo-2 {
+    width: 100%;
+    max-width: 240px;
+    background-image: url("/src/img/catalog/story/img_2.png");
+    margin-left: 241px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.company__add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 49px;
+}
+
+.add__text{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    max-width: 458px;
+}
+
+.add__text span{
+    color: rgb(224, 113, 83);
+}
+
+.add-btn{
+    width: 282px;
+}
+
+.add-btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+    background-image: url("/src/img/button.svg");
+    border: 1px solid rgb(201, 92, 63);
+    border-radius: 2px;
+    background-color: rgb(224, 113, 83);
+    width: 100%;
+    height: 72px;
+    cursor: pointer;
+    color: white;
+    padding: 0 21px 0 49px;
+}
+
+.add-btn button p{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.add-btn button:hover{
+    opacity: 0.85;
+}
+
+.add-btn button:active {
+    opacity: 0.7;
+}
+
+.images{
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 254px; */
+    align-items: center;
+}
+
+.item-5{
+    grid-column: 1/3;
+}
+
+.item-4{
+    grid-row: 1/3;
+    grid-column: 4/5;
+
+}
