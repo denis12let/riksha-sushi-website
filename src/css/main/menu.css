@@ -42,7 +42,8 @@
     line-height: 20px;
 }
 
-.menu-3 .menu__item button p:active{
+.menu-3 .menu__item button:hover p,
+.menu-3 .menu__item button:active p{
     color: rgb(255, 255, 255);
 }
 
@@ -58,10 +59,29 @@
     gap: 8px;
 }
 
-.menu-3 .menu__list button:active{
+.menu-3 .menu__list button:active,
+.menu-3 .menu__list button:hover{
     border-radius: 12px;
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.25);
-    background: rgb(224, 113, 83);
+    background: rgb(224, 113, 83);   
+}
+
+.menu-3 .menu__list button:active svg .svg__img,
+.menu-3 .menu__list button:hover svg .svg__img{
+    fill: #fff;
+}
+
+.menu__item-active button{
+    border-radius: 12px;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.25);
+    background-color: rgb(224, 113, 83) !important; 
+}
+.menu__item-active p{
+    color: #fff;
+}
+
+.menu__item-active svg .svg__img{
+    fill: #fff;
 }
 
 .menu-3 ul{

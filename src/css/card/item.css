@@ -191,7 +191,11 @@
 
 
 
-button:not(.number>button, .comm__btn>button, .review__modal-top button){
+button:not(.number>button,
+           .comm__btn>button, 
+           .review__modal-top button,
+           #basket__modal-btn-1,
+           #account__modal-btn-0){
     background-image: url("/src/img/button.svg");
     border: 1px solid rgb(201, 92, 63);
     border-radius: 2px;

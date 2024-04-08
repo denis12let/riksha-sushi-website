@@ -35,10 +35,7 @@ body{
   margin-bottom: -75px;
   width: 134px;
   flex-shrink: 0;
-
-}
-
-.logo img{
+  z-index: 1;
 }
 
 .header__wrapper{
@@ -192,6 +189,11 @@ body{
 
 .item__img{
   margin-bottom: 8px;
+}
+
+header .item__img img{
+  width: 32px;
+  height: 32px;
 }
 
 .item__name p{

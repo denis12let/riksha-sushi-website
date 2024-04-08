@@ -80,3 +80,8 @@ hr{
 button, a{
   cursor: pointer;
 }
+
+
+button, input, textarea{
+  outline: none;
+}
